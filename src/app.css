@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  @font-face {
+    font-family: "SansBold";
+    src: url("../src/DMSans-Bold.ttf");
+  }
+  @font-face {
+    font-family: "Sans";
+    src: url("../src/DMSans-Regular.ttf");
+  }
+}
